@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zunimo — Tiere in 4 Sprachen</title>
+  <meta name="description" content="Zunimo: über 100 Tiere in 4 Sprachen für Kinder von 2–7 Jahren. Ohne Werbung, ohne Abo, ohne Tracking.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    @font-face { font-family:'Comfortaa'; font-weight:700; font-display:swap; src:url(fonts/comfortaa-700-latin.woff2) format('woff2'); unicode-range:U+0000-00FF,U+2000-206F; }
+    @font-face { font-family:'Comfortaa'; font-weight:700; font-display:swap; src:url(fonts/comfortaa-700-cyrillic.woff2) format('woff2'); unicode-range:U+0400-045F; }
+    @font-face { font-family:'Nunito'; font-weight:400; font-display:swap; src:url(fonts/nunito-400-latin.woff2) format('woff2'); unicode-range:U+0000-00FF,U+2000-206F; }
+    @font-face { font-family:'Nunito'; font-weight:400; font-display:swap; src:url(fonts/nunito-400-cyrillic.woff2) format('woff2'); unicode-range:U+0400-045F; }
+    @font-face { font-family:'Nunito'; font-weight:700; font-display:swap; src:url(fonts/nunito-700-latin.woff2) format('woff2'); unicode-range:U+0000-00FF,U+2000-206F; }
+    @font-face { font-family:'Nunito'; font-weight:700; font-display:swap; src:url(fonts/nunito-700-cyrillic.woff2) format('woff2'); unicode-range:U+0400-045F; }
+    :root { --orange:#FF9800; --orange-dark:#E65100; --bg:#FFF8F0; --text:#333; --muted:#666; --card:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text);
+      font-family:'Nunito','Segoe UI',system-ui,sans-serif; line-height:1.6; }
+    .wrap { max-width:760px; margin:0 auto; padding:32px 16px 60px; }
+    header { text-align:center; }
+    header img { width:120px; height:120px; border-radius:28px; box-shadow:0 6px 20px rgba(0,0,0,0.12); }
+    h1 { font-family:'Comfortaa',sans-serif; font-weight:700; color:var(--orange-dark); font-size:44px; margin:16px 0 0; }
+    .langbar { text-align:center; margin:20px 0 8px; }
+    .langbar a { display:inline-block; margin:4px; padding:6px 12px; border-radius:14px;
+      text-decoration:none; color:var(--orange-dark); border:2px solid var(--orange); font-weight:700; font-size:14px; }
+    section { background:var(--card); border-radius:18px; padding:20px 22px; margin:20px 0;
+      box-shadow:0 4px 16px rgba(0,0,0,0.06); }
+    h2 { font-family:'Comfortaa',sans-serif; font-weight:700; font-size:21px; margin:0 0 8px; }
+    ul { padding-left:0; list-style:none; margin:12px 0; }
+    li { margin:4px 0; }
+    .soon { display:inline-block; background:#E8F5E9; border-radius:12px; padding:6px 12px; font-weight:700; }
+    footer { text-align:center; color:var(--muted); font-size:14px; margin-top:30px; }
+    a { color:var(--orange-dark); }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="Zunimo">
+    <h1>Zunimo</h1>
+  </header>
+  <nav class="langbar">
+    <a href="#de">🇩🇪 Deutsch</a>
+    <a href="#bg">🇧🇬 Български</a>
+    <a href="#ru">🇷🇺 Русский</a>
+    <a href="#en">🇬🇧 English</a>
+  </nav>
+
+  <section id="de" lang="de">
+    <h2>Tiere lernen in 4 Sprachen</h2>
+    <p>Kinder von 2 bis 7 Jahren entdecken über 100 Tiere auf Deutsch, Englisch, Bulgarisch und Russisch — mit Tier-Lexikon, Memory, Quiz und Kartenspiel. Entwickelt von einer Ingenieurin und Mutter für ihr eigenes Kind.</p>
+    <ul>
+      <li>🚫 Keine Werbung, kein Tracking, keine Datensammlung</li>
+      <li>💳 15 Tiere gratis, dann einmalig freischalten — kein Abo</li>
+      <li>🌙 Bewusst nicht süchtig — kein Zeitdruck, keine Streaks</li>
+    </ul>
+    <p class="soon">Bald bei Google Play</p>
+  </section>
+
+  <section id="bg" lang="bg">
+    <h2>Учи животните на 4 езика</h2>
+    <p>Деца от 2 до 7 години откриват над 100 животни на немски, английски, български и руски — с енциклопедия, мемори, викторина и игра с карти. Създадена от инженер и майка за собственото ѝ дете.</p>
+    <ul>
+      <li>🚫 Без реклами, без проследяване, без събиране на данни</li>
+      <li>💳 15 животни безплатно, след това еднократно отключване — без абонамент</li>
+      <li>🌙 Без пристрастяване — без натиск с време, без серии</li>
+    </ul>
+    <p class="soon">Скоро в Google Play</p>
+  </section>
+
+  <section id="ru" lang="ru">
+    <h2>Учим животных на 4 языках</h2>
+    <p>Дети от 2 до 7 лет открывают более 100 животных на немецком, английском, болгарском и русском — с энциклопедией, мемори, викториной и карточной игрой. Создано инженером и мамой для собственного ребёнка.</p>
+    <ul>
+      <li>🚫 Без рекламы, без отслеживания, без сбора данных</li>
+      <li>💳 15 животных бесплатно, затем разовая покупка — без подписки</li>
+      <li>🌙 Без зависимости — без спешки, без серий</li>
+    </ul>
+    <p class="soon">Скоро в Google Play</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Learn animals in 4 languages</h2>
+    <p>Children aged 2 to 7 discover over 100 animals in German, English, Bulgarian and Russian — with an animal encyclopedia, memory, quiz and card game. Built by an engineer and mother for her own child.</p>
+    <ul>
+      <li>🚫 No ads, no tracking, no data collection</li>
+      <li>💳 15 animals free, then a one-time unlock — no subscription</li>
+      <li>🌙 Not built to hook — no time pressure, no streaks</li>
+    </ul>
+    <p class="soon">Coming soon to Google Play</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Datenschutz · Поверителност · Конфиденциальность · Privacy</a><br>
+    <a href="mailto:hallo@zunimo.app">hallo@zunimo.app</a>
+  </footer>
+</div>
+</body>
+</html>
